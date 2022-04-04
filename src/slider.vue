@@ -290,16 +290,14 @@ export default {
       border-color rgba(255, 255, 255, 1)
   &-btn-left
     left 0
-    background linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0))
   &-btn-right
     right 0
-    background linear-gradient(-90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0))
   &-icon
     display inline-block
     width 15px
     height 15px
-    border-left 2px solid rgba(255, 255, 255, .6)
-    border-bottom 2px solid rgba(255, 255, 255, .6)
+    border-left 2px solid #000
+    border-bottom 2px solid #000
 
     transition border .2s
   &-icon-left
